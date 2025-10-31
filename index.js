@@ -13,7 +13,7 @@ mongoose
 
 app.use(
     cors({
-        origin: "http://localhost:5173",
+        origin: "http://Govt_Tech_Frontend.onrender.com",
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true
     })
