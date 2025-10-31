@@ -4,7 +4,7 @@ import cors from "cors";
 import 'dotenv/config'
 import { DisableEmployed, DistrictWiseData, EmploymentFamilies, fethUnemploymetAllowance, FundRelease, GramPanchayatCovered, HouseholdEmployment } from './api.js'
 const app = express()
-const port = 3000
+const port = process.env.PORT || 5000
 
 mongoose
     .connect(process.env.AtlasString)
